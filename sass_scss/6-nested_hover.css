@@ -1,7 +1,8 @@
-/* Nested hover change button color on hover */
+/* Nested hover: change button color on hover */
 button {
-  color: #FF0000; }
-  button:hover {
-    color: #00FF00; }
+  color: #FF0000;
 
-/*# sourceMappingURL=6-nested_hover.css.map */
+  &:hover {
+    color: #00FF00;
+  }
+}
